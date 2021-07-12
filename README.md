@@ -458,14 +458,20 @@ Access level	Different users should have different access levels	Access levels s
  
 
 This is the home page where everyone sees when they want to access the system.
-Login Page
+
+
+### Login Page
  
 
 
 This is the staff page.it can be accessed by the manager and waiters.
 It has a username and password and it will have a popup if it is accessed or access denied.
-Login page code
 
+
+##### Login page code
+
+
+```
 import java.sql.Connection;
 import java.sql.*;
 import java.sql.PreparedStatement;
@@ -766,11 +772,7 @@ private javax.swing.JButton resetbtn;
 private javax.swing.JTextField usrnmtxt;
     // End of variables declaration                   
 }
-
-Add to food menu
- 
-This is the page where the customer can place their order, once they finish ordering 
-The manager sees it and allocates a waiter and is updated in the system
+```
 
 
 
@@ -780,38 +782,6 @@ The manager sees it and allocates a waiter and is updated in the system
 
 
 
-REFERENCES
-
-
-Alex Bennet, M. ShaneTomblin, (2006) Bardi J.A (2011). Wiley: EHEP0001784.html?filter=TEXTBOX[Accessed 27th May 2011] Hotel Office Management 5th Edition. [online]. Available :
-Ben Ghalia M. and Wang P.P., “Intelligent system to support judgmental business forecasting: the case of estimating hotel room demand,” Fuzzy Systems, IEEE Transactions on, vol. 8, pp. 380-397, 2000.
-Chandra Narayanaswami, Noboru Kamijoh, Mandayan Raghunath, e.t.c., IBM’s Linux 
-Watch:  The Challenge of Miniaturization, IEEE Computer, 33-41, January 2002.
-Cognizant Communication Corporation [online]: available at
-http;//www.cognizantcommunication.com/[Accessed 15 June,2011 Cognizant Communication Corporation [online]: available at http;//www.cognizantcommunication.com/[Accessed 15 June,201
-David Trastour, Claudio Bartolini, Chris Preist, Semantic web support for the Business-to-business e-commerce lifecycle, Proceedings of the eleventh international conference on World Wide Web, May 2002.
-Eric Newcomer, understanding Web Services: XML, WSDl, SOAP and UDDI, Addison-Wesley, 2002.
-Fallon M.J.O’ and Rutherford D.G. (2011). Hotel Management and Operations | CA                  College of Ayurveda [online]Available at    http://www.ayurvedacollege.com/amazon_store/item/0470177144 [Accessed 24 June, 2011]
-Gregory. K. H (2017) University of London Computer Sector. Routledge- London.
-Hussein. E. Gammal (2015).Effective ICT organization
-.Jerry H.C & Osborn K (2005) ICT Support in organizations Koolmanojwong S, “Analysis and Design of b to CE Marketplace for Tourism with UML”                        M.S. Thesis, Faculty of Science and Technology, Assumption University, Bangkok, Thailand 2000
-Liebowitz J.and Beckman T. knowledge Organizations. Saint Lucie Press, Washington, DC, 1998.
-Microsoft Developer Network (MSDN) Library for Visual studio 2005: SQL Server 2005, Visual C#.
-Ming-Ju Y., et al., “Multicast Services of Digital Television in a new Management                    Framework,” in Intelligent Information Technology Application Workshops, 2008.        IITAW ’08. International Symposium on, 2008, pp. 269-299.
-Bardi J.A (2011). Wiley: Hotel Office Management 5th Edition. [online]. Available :    http://eu.wiley.com/WileyCDA/WileyTitle/productCd-
-EHEP0001784.html?filter=TEXTBOX [Accessed 27th May 2011].
-Ben Ghalia M. and Wang P.P., “Intelligent system to support judgmental business forecasting: the case of estimating hotel room demand,” Fuzzy Systems, IEEE Transactions on, vol. 8, pp. 380-397, 2000.
-David Trastour, Claudio Bartolini, Chris Preist, Semantic web support for the Business-to-business e-commerce lifecycle, Proceedings of the eleventh international conference on World Wide Web, May 2002
-Koolmanojwong S, “Analysis and Design of b to CE Marketplace for Tourism with UML”        M.S. Thesis, Faculty of Science and Technology, Assumption University, Bangkok, Thailand 2000
-Ming-Ju Y., et al., “Multicast Services of Digital Television in a new Management                    Framework,” in Intelligent Information Technology Application Workshops, 2008.        IITAW ’08. International Symposium on, 2008, pp. 269-299.
-Ngai E. W.T and Wat F.K.T., “Design and development of a fuzzy expert system for hotel selection,” Omega, vol. 31, pp. 275-286, 2003.
-Riemer K. and Lehrke C., “Biased Listing in Electronic Marketplaces: Exploring Its Implications in On-Line Hotel Distribution,” Int. J. Electron. Commerce, vol. 14, pp. 55-78, 2009.
-Wong Poh Kian: The One Hotel Management System. School of Arts and Sciences Tunku Abdul Rahman University, Kuala Lumpur, 2011.
-[5]”Hotel Management Case Study”, March.6, 2010. [Online].Available:
-http://www.scribd.com/doc/27927992/Hotel-Management-Case-Study, [Accessed: June.28, 2014]
-
-[6]”High-Level-Software Features”, [Online].Available:
-http://www.high-level-software.com/features/, [Accessed: June.25, 2014]
 
 
 
