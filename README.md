@@ -1,37 +1,38 @@
 
                                                  
 
-DIPLOMA IN  INFORMATION TECHNOLOGY 
+## DIPLOMA IN  INFORMATION TECHNOLOGY 
                            UNIT:PROJECT
                                
-  TITLE: HOTEL MANAGEMENT SYSTEM
-                                          BY: NAJMA NOOR
-                                               DIT-02-7881/2020
+ # HOTEL MANAGEMENT SYSTEM
+                                          
+ ### NAJMA NOOR
+### DIT-02-7881/2020
 
  
-Table of Contents
-Chapter one
-1	Introduction	5
-1.1	Background Study	5
-1.2	Problem Statement	5
-1.3	General aims of the study	6
-1.4	Specific objectives	6
-1.5	Significance	6
-1.6	Limitation	7
-Chapter Two	8
-2	LITERATURE REVIEW	8
-2.1	Introduction	8
-2.2	User support activities	8
-2.2.1	ICT Strategy Consultancy and Review	9
-2.2.2	Virus/patch management	9
-2.2.3	Hardware Maintenance	9
-2.2.4	Desktop Build Imaging	9
-2.2.5	PC Refreshing	9
-2.2.6	Print Management	10
-2.2.7	Security Control/Management	10
-2.2.8	Application Support	10
-2.2.9	Software Distribution/Upgrades/Installation	10
-Chapter Three	11
+## Table of Contents
+# Chapter one
+- 1	Introduction	
+- 1.1	Background Study	
+- 1.2	Problem Statement	
+- 1.3	General aims of the study	
+- 1.4	Specific objectives	
+- 1.5	Significance	
+- 1.6	Limitation	
+# Chapter Two	
+- 2	LITERATURE REVIEW	8
+- 2.1	Introduction	8
+- 2.2	User support activities	8
+- 2.2.1	ICT Strategy Consultancy and Review	9
+- 2.2.2	Virus/patch management	9
+- 2.2.3	Hardware Maintenance	9
+- 2.2.4	Desktop Build Imaging	9
+- 2.2.5	PC Refreshing	9
+- 2.2.6	Print Management	10
+- 2.2.7	Security Control/Management	10
+- 2.2.8	Application Support	10
+- 2.2.9	Software Distribution/Upgrades/Installation	10
+# Chapter Three	
 3	SYSTEM ANALYSIS AND DESIGN	11
 3.1	3.0 SYSTEM ANALYSIS	11
 3.1.1	Feasibility Study	11
@@ -46,7 +47,7 @@ Chapter Three	11
 3.5	Steps of Waterfall Methodology	14
 3.6	Methods of data collection	15
 3.7	Conclusion	16
-Chapter Four	17
+# Chapter Four	
 4	SOFTWARE REQUIREMENT SPECIFICATION	17
 General description	17
 4.1	System perspective	17
@@ -55,7 +56,7 @@ General description	17
 4.4	Assumptions and Dependencies	18
 SPECIFIC USER REQUIREMENT	19
 4.5	Functional Requirements	19
-Chapter Five	21
+# Chapter Five	
 5	Analysis	21
 5.1	Use case model	21
 5.2	Use case description	22
