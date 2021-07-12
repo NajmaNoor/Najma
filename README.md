@@ -362,9 +362,9 @@ Data normalization is the process of organizing data in a database to remove red
 Identify primary keys.
 |Customer ID| Order ID| Meal Type| Meal name|Quantity| product ID| Emplyee ID| Employee Name| Unit Price|Sales|
 |-----------|---------|----------|----------|--------|-----------|-----------|--------------|-----------|-----|
-|001        |300      |Breakfast |Coffee    |  2     |  23       |  12       |  Jimmy       |   200     |   50|
-|002        |301      |Main Dish |Pizza     |   1    |  80       |  13       |  Edna        |   1200    |   10|
-|003        |302      |Main Dish |Chicken   |   1    |  101      |  11       |  Sydney      |   600     |   80|
+|001        |300      |Breakfast |Coffee    |  2     | # 23      |  12       |  Jimmy       |   200     |   50|
+|002        |301      |Main Dish |Pizza     |   1    | # 80      |  13       |  Edna        |   1200    |   10|
+|003        |302      |Main Dish |Chicken   |   1    | # 101     |  11       |  Sydney      |   600     |   80|
 
 
 Customer ID	Order ID	Meal type	Meal name	Quantity	Product id	Employee ID	Employee name	Unit price	sales
