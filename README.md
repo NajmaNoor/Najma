@@ -360,6 +360,10 @@ This database system for Kilimanjaro Hotel is designed to assist the hotel in or
 ### 6.3.2	DATA NORMALIZATION
 Data normalization is the process of organizing data in a database to remove redundancy from a relation.
 Identify primary keys.
+|Customer ID| Order ID| Meal Type| Meal name|Quantity| product ID| Emplyee ID| Employee Name| Unit Price|Sales|
+|-----------|---------|----------|----------|--------|-----------|-----------|--------------|-----------|-----|
+
+
 Customer ID	Order ID	Meal type	Meal name	Quantity	Product id	Employee ID	Employee name	Unit price	sales
 001	300	Breakfast	coffee	2	23	12	Jimmy	200	50
 002	301	Main dish	pizza	1	80	13	Edna	1200	10
