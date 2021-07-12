@@ -33,73 +33,73 @@
 - 2.2.8	Application Support	10
 - 2.2.9	Software Distribution/Upgrades/Installation	10
 # Chapter Three	
-3	SYSTEM ANALYSIS AND DESIGN	11
-3.1	3.0 SYSTEM ANALYSIS	11
-3.1.1	Feasibility Study	11
-3.1.2	Technical Feasibility	11
-3.1.3	Operational Feasibility	11
-3.1.4	Operational Feasibility	12
-3.1.5	Economic Feasibility	12
-3.2	REQUIREMENTS ANALYSIS	12
-3.2.1	System Analysis Models	12
-3.3	Database Design	13
-3.4	Methodology	14
-3.5	Steps of Waterfall Methodology	14
-3.6	Methods of data collection	15
-3.7	Conclusion	16
+- 3	SYSTEM ANALYSIS AND DESIGN	11
+- 3.1	3.0 SYSTEM ANALYSIS	11
+- 3.1.1	Feasibility Study	11
+- 3.1.2	Technical Feasibility	11
+- 3.1.3	Operational Feasibility	11
+- 3.1.4	Operational Feasibility	12
+- 3.1.5	Economic Feasibility	12
+- 3.2	REQUIREMENTS ANALYSIS	12
+- 3.2.1	System Analysis Models	12
+- 3.3	Database Design	13
+- 3.4	Methodology	14
+- 3.5	Steps of Waterfall Methodology	14
+- 3.6	Methods of data collection	15
+- 3.7	Conclusion	16
 # Chapter Four	
-4	SOFTWARE REQUIREMENT SPECIFICATION	17
-General description	17
-4.1	System perspective	17
-4.2	User Characteristics	17
-4.3	Design and Implementation Constraints	18
-4.4	Assumptions and Dependencies	18
-SPECIFIC USER REQUIREMENT	19
-4.5	Functional Requirements	19
+### SOFTWARE REQUIREMENT SPECIFICATION	
+### General description	
+- 4.1	System perspective	
+- 4.2	User Characteristics	
+- 4.3	Design and Implementation Constraints	
+- 4.4	Assumptions and Dependencies	
+### SPECIFIC USER REQUIREMENT	
+- 4.5	Functional Requirements	
 # Chapter Five	
-5	Analysis	21
-5.1	Use case model	21
-5.2	Use case description	22
-6	Chapter Six	23
-6.1	Entity Relation Diagram	23
-6.2	Data flow diagram (DFD)	23
-6.3	DATA MODELING (DATABASE)	24
-6.3.1	DATABASE DESIGN	24
-6.3.2	DATA NORMALIZATION	24
-6.4	System Testing	26
-6.4.1	Module Testing	26
-6.4.2	Unit tasting	26
-7	USER MANUAL	28
+### Analysis
+- 5.1	Use case model	
+- 5.2	Use case description	
+# Chapter Six	
+- 6.1	Entity Relation Diagram	
+- 6.2	Data flow diagram (DFD)	
+- 6.3	DATA MODELING (DATABASE)	
+- 6.3.1	DATABASE DESIGN	
+- 6.3.2	DATA NORMALIZATION	
+- 6.4	System Testing	
+- 6.4.1	Module Testing	
+- 6.4.2	Unit tasting	
+# USER MANUAL	
 
  
-Declaration
+### Declaration
 I hereby declare that this research project has not been submitted to any other university for any academic award. 
-Chapter one
-1	Introduction#
+# Chapter one
+## 1	Introduction
 
 The Hotel Ordering system is a system that helps ICT users offer a systematic and well planned form of support to other users in the organization. It is used in an Organization with two levels of support namely; Manager (service desk Support) and Second line support (waiter and customers). A brief introduction of how this system is implemented is, the customer orders the Food they want, then the Manager will assign the duty to a waiter and the waiter will log into the Hotel ordering system and from there will be able to see the task. When the Waiter is done serving then he will print the receipt and it will also be indicated in the system. The manager will be able to see the same too.
 
-1.1	Background Study
+### 1.1	Background Study
 For a long time, organizations have had a system of user support in their ICT department. Most of these organizations implemented a one on one reporting system, where if one encounters an ICT related problem, he or she walks to the ICT department and reports his case then proper assistance is given to this user. Others implemented the use of IP phones and networked telephones to call the ICT department which will necessitate one to come and personally view what problem the user is encountering. However, with recent years, better tools have been emerging to facilitate user support. Some have implemented the use of company mails or group mails to facilitate this. Others have developed customized tools for this particular endeavour. One major challenge in Business management in Kenya is ineffective utilization of resources and lack of proper record keeping leading to wastages and outright fraud by the staff. This is particularly true in the hospitality industry. The Hotel management information system is a system that aids the management of the Customers’ data, Hotel staff data, customers’ registration, Customer accommodation or allocation into specific rooms, room reservation and Personnel staff management.
-1.2	Problem Statement
+### 1.2	Problem Statement
 Generally, aligning ICT with an organization is done with the hope of making the organization’s operations more efficient and effective among other benefits like reducing costs. However, if aligning and integrating ICT with the business will not achieve this goal, then most companies would be straining if they would insist in keeping their activities ICT integrated. This would require that ICT processes be effective and efficient themselves. User support to be precise is a section of ICT that has for far long being inefficient in organizations. Having a way of efficiently recording what work has been done and to what extent it has been done, has proven to be a cumbersome and almost impossible task. Most of the time users spend many days idling and waiting for an ICT officer to attend to them, whereas the officer is not even a where he has such a task to perform. Having a way to solve this problem by recording what tasks are to be done, which ones have been done and who is specifically going to do them, will go a long way in improving the efficiency of the support sector of most organizations.
-1.3	General aims of the study
+### 1.3	General aims of the study
 The aim of this project is to develop a Hotel Information Management System
-1.4	Specific objectives
+### 1.4	Specific objectives
 The aim of the proposed system is to provide solutions to the problems stated above and help the user to manage the hotel effectively and efficiently through:
-i.	Adequate Record Keeping: To eliminate manual record keeping and install an electronic record keeping thereby ensuring adequate record of transactions are kept. This ensures a centralized system where all necessary data and information can easily be accessed, Tracked, and monitored
-ii.	Reduced Incidence of Fraud: The program is envisaged to reduce the incidence of fraud both by staff and outsiders through proper record keeping, tracking and monitoring of transaction operations in the organization.
-iii.	Maximum Accountability: To Instil accountability in the process of management in the hotel organization by not only reducing incidence of fraud, but also eliminate wastages.
-iv.	Provide Data Security: The study will install security measures by providing different access levels to various staff.
+- i.	Adequate Record Keeping: To eliminate manual record keeping and install an electronic record keeping thereby ensuring adequate record of transactions are kept. This ensures a centralized system where all necessary data and information can easily be accessed, Tracked, and monitored
+- ii.	Reduced Incidence of Fraud: The program is envisaged to reduce the incidence of fraud both by staff and outsiders through proper record keeping, tracking and monitoring of transaction operations in the organization.
+- iii.	Maximum Accountability: To Instil accountability in the process of management in the hotel organization by not only reducing incidence of fraud, but also eliminate wastages.
+- iv.	Provide Data Security: The study will install security measures by providing different access levels to various staff.
 
-1.5	Significance
+### 1.5	Significance
 Implementing this tool in organizations will bring with it various advantages. These include: Increase accountability as it is well known who is to undertake what particular duty. Increase level of efficiency in communication e.g. transfer of messages that define tasks from user to officers in charge. Provide a definite way of keeping track of whatever tasks are undertaken by the officers. Minimize laziness in the workforce by making unperformed duties visible. The Hotel Management system is developed to overcome the most of the problems occurring in the manual system by computerizing the existing system. The features of the newly proposed computerized system are described in brief; after computerizing the system, the Hotel Administrator can finish their work in the least amount of time possible and with very little effort. The computerized system has many gains and efforts which the manual system cannot give in any type of situation. In any manual system if we take the main problem arising is to maintain the number of records and finding a particular record, computerized systems are most helpful in dealing with areas where database comes into existence. A computer can hold large amount of data in storage devices and it can operate at a very high speed. The user can input all types of information into the computer and can be able to perform any type of task which when done manually is tedious and time consuming.
 
-1.6	Limitation
+### 1.6	Limitation
 The tool like any other has limitations, although it by far covers loop-holes created by earlier systems. These include:
-i.	Tasks can only be communicated to the officers via this system and not through other means.
-ii.	The tool does not provide a deadline for the tasks to be completed.
-iii.	A well-defined summary of job performed is not provided.
+- i.	Tasks can only be communicated to the officers via this system and not through other means.
+- ii.	The tool does not provide a deadline for the tasks to be completed.
+- iii.	A well-defined summary of job performed is not provided.
 
 
 
