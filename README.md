@@ -373,7 +373,7 @@ Customer ID	Order ID	Meal type	Meal name	Quantity	Product id	Employee ID	Employe
 003	302	Main dish	chicken	1	101	11	Sydney	600	80
 
 
-![](C:\Users\user\Najma\Najma\Najma\abacus.jpg)
+![img](C:\Users\user\Najma\Najma\Najma\abacus.jpg)
 
 
 
