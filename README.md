@@ -206,28 +206,28 @@ The following stages are followed in waterfall methodology:
 3. Implementation
 4. Testing
 5. Maintenance
-Analysis
+ Analysis
 After requirements had been gathered they were analyzed for their validity and possibilities of being incorporated into the development of the system.
-Design
+ Design
 System design was prepared from the requirement specification document which was studied in the analysis phase. Overall system architecture was defined in this phase.
-Implementation
+ Implementation
 Actual coding began in this phase after dividing the system into modules.
-Testing
+ Testing
 After coding, the codes are tested against the requirements to make sure the product is actually solving the needs gathered during analysis phase. Unit testing, integration testing, system testing and acceptance testing were done at this phase.
-Maintenance
+ Maintenance
 Includes all the processes after deploying the system.
-1.7	Benefits of the waterfall methodology
-1) The model is simple and easy to understand and use.
-2) Easy to manage due to rigidity
- 3) The model works well for smaller projects where requirements are very well understood.
-4) It is focused on implementation therefore saving knowledge for tomorrow.
+###	Benefits of the waterfall methodology
+1. The model is simple and easy to understand and use.
+2. Easy to manage due to rigidity
+3. The model works well for smaller projects where requirements are very well understood.
+4. It is focused on implementation therefore saving knowledge for tomorrow.
 
-3.6	Methods of data collection
+## 3.6	Methods of data collection
 At the requirement gathering stage, I used a number of data collection techniques which included:
-1) Interviews
-2) Questionnaires
-3) Observing
-4) Studying of manual documents available about the ICT user support system currently in place.
+1. Interviews
+2. Questionnaires
+3. Observing
+4. Studying of manual documents available about the ICT user support system currently in place.
 
 
 
@@ -235,7 +235,7 @@ At the requirement gathering stage, I used a number of data collection technique
 
 
 
-3.7	Conclusion
+## 3.7	Conclusion
 This system is simple and supports any type of user as long you are registered as user of the system. An individual needs to remember his/her employee number and password in order to login. Actions that can be performed by individual users have been earlier mentioned. The system will make efficient the user support function of every food department if successfully integrated and implemented in various organizations. In conclusion we believe this project if properly utilized will save time, reduce the amount of work the administration has to do, and will replace the stationery material with electronic apparatus. The system should also serve as a major tool to improving the efficiency in Hotel management. Hence a system with expected results has been developed but there is still room for improvement
 
 
@@ -247,26 +247,26 @@ This system is simple and supports any type of user as long you are registered a
 
 
  
-Chapter Four
-4	SOFTWARE REQUIREMENT SPECIFICATION
+# Chapter Four
+## SOFTWARE REQUIREMENT SPECIFICATION
 General description
-4.1	System perspective
+## 4.1	System perspective
 The proposed system is an independent self-contained software programme that looks to solve the problems of the current system. The system will have a good user interface to ensure user friendliness. It will also increase efficiency of the tasks that are carried out in the hotel.
-4.2	User Characteristics
+## 4.2	User Characteristics
 There are three user levels in Hotel Management System of Hotel Kilimanjaro
-  I.	Owner
-II.	Manager
-III.	Waiter/Waitress
+1.	Owner
+2.	Manager
+3.	Waiter/Waitress
 Owner:
 Hotel owner has the privilege of Monitoring and authorization of all the tasks handle by the system. He can access every function performed by the system. Owner of the company as well as the system can access to the administration panel which is consider the core of the system. As the main authorized person of the company owner gets the ability to manage the other users including their user levels and privileges. Taking backups of the system and restoring system can also be done by the Owner. Meanwhile he will be able to take all the kinds of reports available in the system. As the owner of the system and the company he has the power to set room rates as well. Hotel owner has the sole right of deleting a staff member from the system database.
 Manager:
 Manager is responsible for managing resources available in hotel management system. Manager also has most of the privileges mentioned above except the things regarding the payment handling. The reason for using a Manager is to reduce the work load done by the owner that cannot be assigned to the receptionist, as those tasks seem much responsible. The user level, Manager has the authority to take all the reports available in the system but here also except the reports related to financial stuff, hotel income. Manager has other abilities that receptionist, user level has. Such as, adding new staff member to the system, Modifying them or removing them, Adding new guests to the system, Modifying them and removing them from the system, Adding new inventory to the system, Modifying them and removing them.  
 
-4.3	Design and Implementation Constraints
+## 4.3	Design and Implementation Constraints
 
 Software development crew provides their best effort in developing the system. In order to maintain the reliability and durability of system, some design and implementation constraints are applied. Availability of an android app for hotel management system could make the system portable but due to time constraint it is not possible. System will need a minimum memory of 512MB. But it is recommended to have a memory of 1GB. When designing interfaces of system, we had the capability of work with new tools such as Dev. Express. Considering the client’s budget we decided to create those interfaces in a simple realistic manner using affordable technology.
 
-4.4	Assumptions and Dependencies
+## 4.4	Assumptions and Dependencies
 Some software used in implementing the system is with high cost and the client has agreed to afford the amount of money needed to purchase them. It’s assumed that client won’t change that decision on the next phases of the software development. Although we assume that client is using windows 8 or windows 10. Otherwise if client use an open source operating system, there is a need of changing the SRS accordingly.
 
 
@@ -274,8 +274,8 @@ Some software used in implementing the system is with high cost and the client h
 
 
 
-SPECIFIC USER REQUIREMENT
-4.5	Functional Requirements
+## SPECIFIC USER REQUIREMENT
+## 4.5	Functional Requirements
 1.	Register User (Waiters/Waitress)
 The system should be able to register and add user to the database. This will be achieved by the following process:
 
@@ -313,15 +313,15 @@ The system should allow logged in users (waiters/waitress on shift) to end shift
 The system should allow logged in users to log out of the system
 
  
-Chapter Five
-5	Analysis
-5.1	Use case model
+# Chapter Five
+##	Analysis
+## 5.1	Use case model
  
 
 
 
 
-5.2	Use case description
+## 5.2	Use case description
 Register User Use case
 Actor: manager
 The manager in this system is a super user who registers all users to the system. In order to register a user (waiter/waitress) the manager must first login to the system. 
@@ -347,17 +347,17 @@ All logged in users should be able to log out upon shift completion
 
 
 
-6	Chapter Six
-6.1	Entity Relation Diagram
+#	Chapter Six
+## 6.1	Entity Relation Diagram
  
-6.2	Data flow diagram (DFD)	
+## 6.2	Data flow diagram (DFD)	
  
-6.3	DATA MODELING (DATABASE)
-6.3.1	DATABASE DESIGN
+## 6.3	DATA MODELING (DATABASE)
+### 6.3.1	DATABASE DESIGN
 
 This database system for Kilimanjaro Hotel is designed to assist the hotel in organizing and sorting its records. The data obtained from customers, the placed orders, the hotel department, and owner would be arranged into tables of shared connections between them. The database is set up to eliminate any needless uncertainty that can occur when trying to connect the various pieces of information together, so that it moves smoothly.
 
-6.3.2	DATA NORMALIZATION
+### 6.3.2	DATA NORMALIZATION
 Data normalization is the process of organizing data in a database to remove redundancy from a relation.
 Identify primary keys.
 Customer ID	Order ID	Meal type	Meal name	Quantity	Product id	Employee ID	Employee name	Unit price	sales
@@ -407,14 +407,14 @@ Table 3 Order relation
 
 
 
-6.4	System Testing
+## 6.4	System Testing
 The system is tested by entering some test data and see whether the output is as the expected results. The system testing is done using requirement specification and design specification.
 Below are some of the tests that were used on the new system:
 
 Test Area	Expected Result	Actual Result
 System solution	Valid users should be able to log in and perform their duties as per their functions and access levels	Valid users are able to log in and perform their functions
 
-6.4.1	Module Testing
+### 6.4.1	Module Testing
 This test involved modules of the system that were tested and the results of the test are shown on the table below. The objective of this test was to verify that all the system’s modules function as was required.
 MODULE	EXPECTED RESULT	ACTUAL RESULT
 Adding new waiter	This module should add both new and existing  waiters	Waiter records were captured and saved successfully.
@@ -422,7 +422,7 @@ Adding food to menu	Food should be able to be added or removed 	The food was add
 Log out	The module should be able to log out successfully	This process was done successfully
 
 
-6.4.2	Unit tasting
+### 6.4.2	Unit tasting
 It involved testing of the various unit functionalities within the system. The table below shows how the security function through different access levels of security was tested.
 Unit	Expected Results	Actual Results
 Login	Only registered users with valid passwords can access the system	Valid users can access the system while unregistered or wrong password use are denied access to the system
@@ -453,7 +453,7 @@ Access level	Different users should have different access levels	Access levels s
 
 
 
-7	USER MANUAL
+#	USER MANUAL
 
  
 
@@ -465,6 +465,7 @@ Login Page
 This is the staff page.it can be accessed by the manager and waiters.
 It has a username and password and it will have a popup if it is accessed or access denied.
 Login page code
+
 import java.sql.Connection;
 import java.sql.*;
 import java.sql.PreparedStatement;
