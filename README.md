@@ -316,7 +316,7 @@ The system should allow logged in users to log out of the system
 # Chapter Five
 ##	Analysis
 ## 5.1	Use case model
- 
+ ![img](usecase.PNG)
 
 
 
