@@ -456,14 +456,14 @@ This is the home page where everyone sees when they want to access the system.
 
 
 ### Login Page
-![img](login.PNG)
+![img](login.png)
  
 
 
 This is the staff page.it can be accessed by the manager and waiters.
 It has a username and password and it will have a popup if it is accessed or access denied.
 ### Main page
-![img](main.PNG)
+![img](main.png)
 
 
 
