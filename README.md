@@ -249,7 +249,7 @@ This system is simple and supports any type of user as long you are registered a
  
 # Chapter Four
 ## SOFTWARE REQUIREMENT SPECIFICATION
-General description
+## General description
 ## 4.1	System perspective
 The proposed system is an independent self-contained software programme that looks to solve the problems of the current system. The system will have a good user interface to ensure user friendliness. It will also increase efficiency of the tasks that are carried out in the hotel.
 ## 4.2	User Characteristics
