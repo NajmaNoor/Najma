@@ -318,24 +318,21 @@ The system should allow logged in users to log out of the system
 ## 5.1	Use case model
  ![img](usecase.PNG)
 
-
-
-
 ## 5.2	Use case description
-Register User Use case
-Actor: manager
+ Register User Use case
+ Actor: manager
 The manager in this system is a super user who registers all users to the system. In order to register a user (waiter/waitress) the manager must first login to the system. 
 Add to food menu use case
-Actor: Manager
+ Actor: Manager
 The manager is responsible for adding food to food menu with different categories (starter, main course, desert, drinks). This activity also requires the manager to login to the system so as to access the form to add the food to the existing menu
 
-Finish order use case
-Actor: waiter/waitress
+ Finish order use case
+ Actor: waiter/waitress
 The waiter/waitress is responsible for order finishing after being assigned an order by the manager. This will allow the waiter/waitress as well as the customer to print receipt for the order placed
 Place an order use case
-Actor: Customer
+ Actor: Customer
 The customer places an order without having to login in to the system.  The manager then assigns the order placed to available waiter and the waiter finishes the order. Now the customer can printout a receipt for the order made 
-Logout Use case
+ Logout Use case
 Actor: waiter, manager
 All logged in users should be able to log out upon shift completion 
 
