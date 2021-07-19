@@ -346,9 +346,9 @@ All logged in users should be able to log out upon shift completion
 
 #	Chapter Six
 ## 6.1	Entity Relation Diagram
- 
+![img](erd.PNG)
 ## 6.2	Data flow diagram (DFD)	
- 
+ ![img](dfd.PNG)
 ## 6.3	DATA MODELING (DATABASE)
 ### 6.3.1	DATABASE DESIGN
 
@@ -362,41 +362,32 @@ Identify primary keys.
 |001        |300      |Breakfast |Coffee    |  2     |   23      |  12       |  Jimmy       |   200     |   50|
 |002        |301      |Main Dish |Pizza     |   1    |   80      |  13       |  Edna        |   1200    |   10|
 |003        |302      |Main Dish |Chicken   |   1    |   101     |  11       |  Sydney      |   600     |   80|
+ 
+ Normalizing table to 1st normal form
 
+|Customer ID|	Meal type|	Meal name|	quantity |Unit price|
+|-----------|----------|-----------|-----------|----------|
+|003        |Main dish |  Chicken	 |  1	       |  600     |
+|001        |Breakfast |	Coffee	 |  2        |	200     |
 
-Customer ID	Order ID	Meal type	Meal name	Quantity	Product id	Employee ID	Employee name	Unit price	sales
-001	300	Breakfast	coffee	2	23	12	Jimmy	200	50
-002	301	Main dish	pizza	1	80	13	Edna	1200	10
-003	302	Main dish	chicken	1	101	11	Sydney	600	80
-
-
-![img](abacus.jpg)
-
-
-
-
-
-
-
-
-
-Normalizing table to 1st normal form
-Customer ID	Meal type	Meal name	quantity	Unit price
-003	Main dish	Chicken	1	600
-001	Breakfast	Coffee	2	200
 Table 1 Product relation
-Normalizing to 2nd normal form
-Employee ID	Employee name	Employee duty	Gender
-12	Jimmy	Waiter	Male
-13	Edna	Waitress	Female
+
+ Normalizing to 2nd normal form
+
+|Employee ID | Employee name |Employee duty |Gender|
+|------------|---------------|--------------|------|
+|   12	     |    Jimmy	     |    Waiter	  | Male |
+|   13       |	  Edna	     |    Waitress	|Female|
+
 Table 2 Employee relation
 
+ Normalizing to 3rd normal form
+ 
+|Order ID |	Customer ID |	Product ID |	Meal type |	Unit price |
+|---------|-------------|------------|------------|------------|
+|  300	  |   001	      |   23	     |  Breakfast	|     200    |
+|  301	  |   002	      |   80	     |  Main Dish	|     1200   |
 
-
-Normalizing to 3rd normal form
-Order ID	Customer ID 	Product ID	Meal type	Unit price
-300	001	23	Breakfast	200
-301	002	80	Main Dish	1200
 Table 3 Order relation
 
 
@@ -465,11 +456,14 @@ This is the home page where everyone sees when they want to access the system.
 
 
 ### Login Page
+![img](login.PNG)
  
 
 
 This is the staff page.it can be accessed by the manager and waiters.
 It has a username and password and it will have a popup if it is accessed or access denied.
+### Main page
+![img](main.PNG)
 
 
 
