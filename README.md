@@ -279,21 +279,25 @@ Some software used in implementing the system is with high cost and the client h
 1.	Register User (Waiters/Waitress)
 The system should be able to register and add user to the database. This will be achieved by the following process:
 
-Input user details	Name, email address, contact, address, gender, password
-
-Workflow	validate and record the given information
-Output	Return either successful or failed operation message
+|Input user details	| Name, email address, contact, address, gender, password|
+|-------------------|--------------------------------------------------------|
+|Workflow	        |validate and record the given information               |
+|Output	            |Return either successful or failed operation message    |
 
 2.	Login User (waiters, waitress, managers)
-Input user details	email address, password
-Workflow	verify and validate the input records
-Output	return success or failed operation
+
+|Input user details	|   email address, password             |
+|-------------------|---------------------------------------|
+|Workflow	        |verify and validate the input records  |
+|Output	            |return success or failed operation     |
 
 3.	Customer order food
 The system should allow the customer to place an order of the preferred available meals
-Input user details	Preferred available meal
-Workflow	Compute the total cost of the meal
-Output	Print a receipt of the items ordered and the cost in Kenya shillings 
+
+|Input user details |	Preferred available meal                                          |
+|-------------------|---------------------------------------------------------------------|
+|Workflow	        |   Compute the total cost of the meal                                |
+|Output	            |Print a receipt of the items ordered and the cost in Kenya shillings |
 
 
 4.	Assign an order to a waiter/waitress
@@ -301,9 +305,11 @@ The system should allow the manager to assign an order placed by the customer to
 
 5.	Give feedback
 The system should allow the customer to give feedback or rating on the service he/she has received
-Input user details	Text of opinions from the customer or a star rating on the service provided
-Workflow	Record the text provided by the customer and store them as log files either in PDF or CSV form
-Output	Log file in PDF or CSV file format 
+
+|Input user details	|   Text of opinions from the customer or a star rating on the service provided                 |
+|-------------------|-----------------------------------------------------------------------------------------------|
+|Workflow	        |Record the text provided by the customer and store them as log files either in PDF or CSV form |
+|Output	            |Log file in PDF or CSV file format                                                             | 
 
 6.	Produce a log file
 The system should produce a log file that will help the management make decisions or give information and ideas on what the customers like or dislike from the way they were served to the type of food served. This will help them identify areas where they need to improve. The log file will be a readable file of format PDF or CSV.
@@ -365,9 +371,9 @@ Identify primary keys.
  
  Normalizing table to 1st normal form
 
-|Customer ID|	Meal type|	Meal name|	quantity |Unit price|
-|-----------|----------|-----------|-----------|----------|
-|003        |Main dish |  Chicken	 |  1	       |  600     |
+|Customer ID| Meal type|	Meal name|	quantity |Unit price|
+|-----------|----------|-------------|-----------|----------|
+|003        |Main dish |  Chicken	 |  1	     |  600     |
 |001        |Breakfast |	Coffee	 |  2        |	200     |
 
 Table 1 Product relation
@@ -376,17 +382,17 @@ Table 1 Product relation
 
 |Employee ID | Employee name |Employee duty |Gender|
 |------------|---------------|--------------|------|
-|   12	     |    Jimmy	     |    Waiter	  | Male |
+|   12	     |    Jimmy	     |    Waiter	| Male |
 |   13       |	  Edna	     |    Waitress	|Female|
 
 Table 2 Employee relation
 
  Normalizing to 3rd normal form
  
-|Order ID |	Customer ID |	Product ID |	Meal type |	Unit price |
+|Order ID |	Customer ID | Product ID |	Meal type |	Unit price |
 |---------|-------------|------------|------------|------------|
-|  300	  |   001	      |   23	     |  Breakfast	|     200    |
-|  301	  |   002	      |   80	     |  Main Dish	|     1200   |
+|  300	  |   001	    |   23	     |  Breakfast |     200    |
+|  301	  |   002	    |   80	     |  Main Dish |     1200   |
 
 Table 3 Order relation
 
